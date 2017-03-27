@@ -1,20 +1,17 @@
 package com.server;
 
-import static spark.Spark.*;
+import com.auth0.jwt.JWTSigner;
+import com.auth0.jwt.JWTVerifier;
+import spark.ModelAndView;
+import spark.Request;
+import spark.template.freemarker.FreeMarkerEngine;
 
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-import com.auth0.jwt.JWTSigner;
-import com.auth0.jwt.JWTVerifier;
-import com.security.User;
-
-import spark.ModelAndView;
-import spark.Request;
-import spark.Session;
-import spark.template.freemarker.FreeMarkerEngine;
+import static spark.Spark.*;
 
 public class SparkServer {
 	
