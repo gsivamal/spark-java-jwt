@@ -4,14 +4,14 @@
 	<dependencies>
 		<dependency org="com.sparkjava" name="spark-core" rev="2.1"/>
 		<!-- https://mvnrepository.com/artifact/com.sparkjava/spark-template-freemarker -->
-		<dependency org="com.sparkjava" name="spark-template-freemarker" rev="2.5.5"/>
+		<dependency org="com.sparkjava" name="spark-template-freemarker" rev="2.0.0"/>
 		<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
 		<dependency org="com.auth0" name="java-jwt" rev="2.0.1"/>
 		<!-- https://mvnrepository.com/artifact/com.auth0/auth0 -->
 		<dependency org="com.auth0" name="auth0" rev="1.0.0"/>
 		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-		<dependency org="commons-codec" name="commons-codec" rev="1.10"/>
+		<dependency org="commons-codec" name="commons-codec" rev="1.4"/>
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
-		<dependency org="org.mybatis" name="mybatis" rev="3.4.2"/>
+		<dependency org="org.mybatis" name="mybatis" rev="3.2.8"/>
 	</dependencies>
 </ivy-module>
