@@ -1,0 +1,17 @@
+
+<ivy-module version="2.0">
+	<info organisation="org.apache" module="dateUtilsProject" />
+	<dependencies>
+		<dependency org="com.sparkjava" name="spark-core" rev="1.1.1"/>
+		<!-- https://mvnrepository.com/artifact/com.sparkjava/spark-template-freemarker -->
+		<dependency org="com.sparkjava" name="spark-template-freemarker" rev="2.5.5"/>
+		<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+		<dependency org="com.auth0" name="java-jwt" rev="2.0.1"/>
+		<!-- https://mvnrepository.com/artifact/com.auth0/auth0 -->
+		<dependency org="com.auth0" name="auth0" rev="1.0.0"/>
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency org="commons-codec" name="commons-codec" rev="1.10"/>
+		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+		<dependency org="org.mybatis" name="mybatis" rev="3.4.2"/>
+	</dependencies>
+</ivy-module>
