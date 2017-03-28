@@ -2,7 +2,7 @@
 <ivy-module version="2.0">
 	<info organisation="org.apache" module="dateUtilsProject" />
 	<dependencies>
-		<dependency org="com.sparkjava" name="spark-core" rev="1.1.1"/>
+		<dependency org="com.sparkjava" name="spark-core" rev="2.1"/>
 		<!-- https://mvnrepository.com/artifact/com.sparkjava/spark-template-freemarker -->
 		<dependency org="com.sparkjava" name="spark-template-freemarker" rev="2.5.5"/>
 		<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
