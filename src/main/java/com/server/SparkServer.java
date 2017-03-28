@@ -35,7 +35,7 @@ public class SparkServer {
 
 	void startApp(){
 		staticFileLocation("/webapp/html/"); // Static files
-
+        port(80);
 		get("/hello", (req, res) -> "Hello World");
 
 		get("/login", (req, resp) -> {
