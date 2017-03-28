@@ -17,9 +17,9 @@ public class SparkServer {
 
 	private static final String SECRET;
 
-		static {
-	        SECRET = "my company secret";
-	    }
+	static {
+		SECRET = "my company secret";
+	}
 
 	private static JWTSigner signer = new JWTSigner(SECRET);
 	private static JWTVerifier verifier = new JWTVerifier(SECRET);
@@ -33,8 +33,7 @@ public class SparkServer {
 		//1. Datasource initialize
 	}
 
-	 void startApp(){
-
+	void startApp(){
 		staticFileLocation("/webapp/html/"); // Static files
 
 		get("/hello", (req, res) -> "Hello World");
@@ -66,13 +65,7 @@ public class SparkServer {
 
 			 return new ModelAndView(null, "index.ftl");
 		}, templateEngine);
-
-
 	}
-
-
-
-
 
     public static void main(String[] args) {
 
@@ -80,5 +73,4 @@ public class SparkServer {
     		hw.bootstarp();
     		hw.startApp();
     }
-
 }
